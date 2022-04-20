@@ -4,8 +4,7 @@
 
 ## Use Cases
 
-* [For Hacking](use-cases/for-hacking/README.md)
-  * [Page 3](use-cases/for-hacking/page-3.md)
+* [For Hacking](use-cases/for-hacking.md)
 * [For Security](use-cases/for-security/README.md)
   * [Haderning Apache](use-cases/for-security/haderning-apache.md)
   * [Thiết lập ANTT cho TLS](use-cases/for-security/thiet-lap-antt-cho-tls.md)
