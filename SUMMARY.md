@@ -12,8 +12,8 @@
   * [Thiết lập cấu hình CMD log](use-cases/for-engineering/thiet-lap-cau-hinh-cmd-log.md)
   * [Cấu hình CLI kết nối đến AWS](use-cases/for-engineering/cau-hinh-cli-ket-noi-den-aws.md)
   * [Sử dụng PET](use-cases/for-engineering/su-dung-pet.md)
-* [SysAdmin](use-cases/sysadmin/README.md)
-  * [Install Mkdocs](use-cases/sysadmin/install-mkdocs.md)
+* [For SysAdmin](use-cases/for-sysadmin/README.md)
+  * [Install Mkdocs](use-cases/for-sysadmin/install-mkdocs.md)
 
 ## Extras
 
