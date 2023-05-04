@@ -4,8 +4,8 @@
 
 ## Use Cases
 
-* [For Hacking](use-cases/for-hacking.md)
-* [Kiểm thử mạng](use-cases/kiem-thu-mang.md)
+* [For Hacking](use-cases/for-hacking/README.md)
+  * [Kiểm thử mạng](use-cases/for-hacking/kiem-thu-mang.md)
 * [For Security](use-cases/for-security/README.md)
   * [Security website with htacess file](use-cases/for-security/security-website-with-htacess-file.md)
   * [Incident Response](use-cases/for-security/incident-response.md)
