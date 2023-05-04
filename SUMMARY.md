@@ -17,6 +17,7 @@
   * [Cấu hình CLI kết nối đến AWS](use-cases/for-engineering/cau-hinh-cli-ket-noi-den-aws.md)
   * [Sử dụng PET](use-cases/for-engineering/su-dung-pet.md)
 * [For SysAdmin](use-cases/for-sysadmin/README.md)
+  * [Config Network on Ubuntu Server](use-cases/for-sysadmin/config-network-on-ubuntu-server.md)
   * [View Wifi Network Connection](use-cases/for-sysadmin/view-wifi-network-connection.md)
   * [Add user can access network interfaces](use-cases/for-sysadmin/add-user-can-access-network-interfaces.md)
   * [USB drive with QEMU](use-cases/for-sysadmin/usb-drive-with-qemu.md)
