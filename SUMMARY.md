@@ -6,6 +6,7 @@
 
 * [For Hacking](use-cases/for-hacking.md)
 * [For Security](use-cases/for-security/README.md)
+  * [Security website with htacess file](use-cases/for-security/security-website-with-htacess-file.md)
   * [Incident Response](use-cases/for-security/incident-response.md)
   * [Add basic Authen with Cloudflare](use-cases/for-security/add-basic-authen-with-cloudflare.md)
   * [Haderning Apache](use-cases/for-security/haderning-apache.md)
