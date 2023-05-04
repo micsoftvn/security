@@ -14,6 +14,7 @@
   * [Cấu hình CLI kết nối đến AWS](use-cases/for-engineering/cau-hinh-cli-ket-noi-den-aws.md)
   * [Sử dụng PET](use-cases/for-engineering/su-dung-pet.md)
 * [For SysAdmin](use-cases/for-sysadmin/README.md)
+  * [Export Windows Config](use-cases/for-sysadmin/export-windows-config.md)
   * [Auto Install Openvpn](use-cases/for-sysadmin/auto-install-openvpn.md)
   * [Install Nginx Centos 7 or Docker](use-cases/for-sysadmin/install-nginx-centos-7-or-docker.md)
   * [Install Mkdocs](use-cases/for-sysadmin/install-mkdocs.md)
