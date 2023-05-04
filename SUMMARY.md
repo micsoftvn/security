@@ -6,6 +6,7 @@
 
 * [For Hacking](use-cases/for-hacking.md)
 * [For Security](use-cases/for-security/README.md)
+  * [Incident Response](use-cases/for-security/incident-response.md)
   * [Add basic Authen with Cloudflare](use-cases/for-security/add-basic-authen-with-cloudflare.md)
   * [Haderning Apache](use-cases/for-security/haderning-apache.md)
   * [Thiết lập ANTT cho TLS](use-cases/for-security/thiet-lap-antt-cho-tls.md)
