@@ -156,3 +156,53 @@ nmap -T4 -sY -n -oA SCTFastScan <IP>
 nmap -T4 -p- -sY -sV -sC -F -n -oA SCTAllScan <IP>
 ```
 
+#### Tìm kiếm và khám phá địa chị IP nội bộ
+
+Các bộ định tuyến, tường lửa và thiết bị mạng được định cấu hình sai đôi khi phản hồi các đầu dò mạng bằng địa chỉ nguồn không công khai. Bạn có thể sử dụng tcpdump được sử dụng để xác định các gói nhận được từ các địa chỉ riêng tư trong quá trình thử nghiệm. Trong trường hợp này, giao diện eth2 trong Kali Linux có thể định địa chỉ từ Internet công cộng (Nếu bạn đứng sau NAT của Tường lửa thì loại gói này có thể sẽ bị lọc).
+
+```
+tcpdump –nt -i eth2 src net 10 or 172.16/12 or 192.168/16
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth2, link-type EN10MB (Ethernet), capture size 65535 bytes
+IP 10.10.0.1 > 185.22.224.18: ICMP echo reply, id 25804, seq 1582, length 64
+IP 10.10.0.2 > 185.22.224.18: ICMP echo reply, id 25804, seq 1586, length 64
+```
+
+#### Sniffing
+
+Sniffing bạn có thể tìm hiểu chi tiết về dải IP, kích thước mạng con, địa chỉ MAC và tên máy chủ bằng cách xem xét các gói và khung đã chụp. Nếu mạng bị định cấu hình sai hoặc cấu trúc chuyển đổi bị căng thẳng, kẻ tấn công có thể lấy được tài liệu nhạy cảm thông qua việc đánh hơi mạng thụ động. Nếu mạng Ethernet chuyển mạch được cấu hình đúng cách, bạn sẽ chỉ thấy các khung và nội dung quảng bá dành cho địa chỉ MAC của mình.
+
+#### TCPDump
+
+```
+sudo tcpdump -i <INTERFACE> udp port 53 #Listen to DNS request to discover what is searching the host
+tcpdump -i <IFACE> icmp #Listen to icmp packets
+sudo bash -c "sudo nohup tcpdump -i eth0 -G 300 -w \"/tmp/dump-%m-%d-%H-%M-%S-%s.pcap\" -W 50 'tcp and (port 80 or port 443)' &"
+```
+
+Hoặc bạn có thể bắt gói tin phiên đăng nhập SSH với Wireshark
+
+```
+ssh user@<TARGET IP> tcpdump -i ens160 -U -s0 -w - | sudo wireshark -k -i -
+ssh <USERNAME>@<TARGET IP> tcpdump -i <INTERFACE> -U -s0 -w - 'port not 22' | sudo wireshark -k -i - # Exclude SSH traffic
+```
+
+#### Bettercap
+
+```
+net.sniff on
+net.sniff stats
+set net.sniff.output sniffed.pcap #Write captured packets to file
+set net.sniff.local  #If true it will consider packets from/to this computer, otherwise it will skip them (default=false)
+set net.sniff.filter #BPF filter for the sniffer (default=not arp)
+set net.sniff.regexp #If set only packets matching this regex will be considered
+```
+
+#### Wireshark
+
+:D tất nhiên là bạn có thể bắt gói tin với công cụ Wireshark rồi
+
+#### Bắt gói tin với thông tin đăng nhập
+
+Sử dụng tools [https://github.com/micsoftvn/PCredz](https://github.com/micsoftvn/PCredz) để lọc dữ liệu bao gồm thông tin đăng nhặp từ Pcap
+
