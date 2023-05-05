@@ -17,6 +17,7 @@
   * [Cấu hình CLI kết nối đến AWS](use-cases/for-engineering/cau-hinh-cli-ket-noi-den-aws.md)
   * [Sử dụng PET](use-cases/for-engineering/su-dung-pet.md)
 * [For SysAdmin](use-cases/for-sysadmin/README.md)
+  * [Run script on startup on Ubuntu 22.04](use-cases/for-sysadmin/run-script-on-startup-on-ubuntu-22.04.md)
   * [Remove Snap from Ubuntu](use-cases/for-sysadmin/remove-snap-from-ubuntu.md)
   * [Config Network on Ubuntu Server](use-cases/for-sysadmin/config-network-on-ubuntu-server.md)
   * [View Wifi Network Connection](use-cases/for-sysadmin/view-wifi-network-connection.md)
