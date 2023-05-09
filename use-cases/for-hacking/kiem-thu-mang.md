@@ -206,3 +206,19 @@ set net.sniff.regexp #If set only packets matching this regex will be considered
 
 Sử dụng tools [https://github.com/micsoftvn/PCredz](https://github.com/micsoftvn/PCredz) để lọc dữ liệu bao gồm thông tin đăng nhặp từ Pcap
 
+#### LAN attacks
+
+#### ARP spoofing
+
+**ARP spoofing có thể cho phép kẻ tấn công chặn các khung dữ liệu trên mạng, sửa đổi lưu lượng,** hoặc **dừng tất cả lưu lượng.** Thông thường cuộc tấn công này được sử dụng như là một sự mở đầu cho các cuộc tấn công khác, chẳng hạn như tấn công từ chối dịch vụ
+
+#### Bettercap
+
+```
+arp.spoof on
+set arp.spoof.targets <IP> #Specific targets to ARP spoof (default=<entire subnet>)
+set arp.spoof.whitelist #Specific targets to skip while spoofing
+set arp.spoof.fullduplex true #If true, both the targets and the gateway will be attacked, otherwise only the target (default=false)
+set arp.spoof.internal true #If true, local connections among computers of the network will be spoofed, otherwise only connections going to and coming from the Internet (default=false)
+```
+
