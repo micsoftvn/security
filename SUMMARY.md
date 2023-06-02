@@ -6,6 +6,7 @@
 
 * [For Hacking](use-cases/for-hacking.md)
   * [Kiểm thử mạng](use-cases/for-hacking/kiem-thu-mang.md)
+  * [Tor - Sock - Proxy](use-cases/for-hacking/tor-sock-proxy.md)
 * [For Security](use-cases/for-security/README.md)
   * [Security website with htacess file](use-cases/for-security/security-website-with-htacess-file.md)
   * [Incident Response](use-cases/for-security/incident-response.md)
