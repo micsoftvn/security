@@ -13,6 +13,7 @@
   * [Add basic Authen with Cloudflare](use-cases/for-security/add-basic-authen-with-cloudflare.md)
   * [Haderning Apache](use-cases/for-security/haderning-apache.md)
   * [Thiết lập ANTT cho TLS](use-cases/for-security/thiet-lap-antt-cho-tls.md)
+  * [Check network traffic ( Ddos )](use-cases/for-security/check-network-traffic-ddos.md)
 * [For Engineering](use-cases/for-engineering/README.md)
   * [Thiết lập cấu hình CMD log](use-cases/for-engineering/thiet-lap-cau-hinh-cmd-log.md)
   * [Cấu hình CLI kết nối đến AWS](use-cases/for-engineering/cau-hinh-cli-ket-noi-den-aws.md)
