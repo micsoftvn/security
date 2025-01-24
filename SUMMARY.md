@@ -33,6 +33,8 @@
   * [Auto Install Openvpn](use-cases/for-sysadmin/auto-install-openvpn.md)
   * [Install Nginx Centos 7 or Docker](use-cases/for-sysadmin/install-nginx-centos-7-or-docker.md)
   * [Install Mkdocs](use-cases/for-sysadmin/install-mkdocs.md)
+* [Installations](use-cases/installations/README.md)
+  * [Install Helm on Ubuntu](use-cases/installations/install-helm-on-ubuntu.md)
 
 ## Extras
 
