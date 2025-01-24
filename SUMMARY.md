@@ -11,6 +11,7 @@
   * [Security website with htacess file](use-cases/for-security/security-website-with-htacess-file.md)
   * [Incident Response](use-cases/for-security/incident-response/README.md)
     * [Cli AWS - Incident](use-cases/for-security/incident-response/cli-aws-incident.md)
+    * [Command line](use-cases/for-security/incident-response/command-line.md)
   * [Add basic Authen with Cloudflare](use-cases/for-security/add-basic-authen-with-cloudflare.md)
   * [Haderning Apache](use-cases/for-security/haderning-apache.md)
   * [Thiết lập ANTT cho TLS](use-cases/for-security/thiet-lap-antt-cho-tls.md)
