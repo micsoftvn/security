@@ -19,6 +19,7 @@
   * [Tools](use-cases/for-security/tools/README.md)
     * [Tools for AWS](use-cases/for-security/tools/tools-for-aws.md)
     * [Fail2Ban Cheat Sheet](use-cases/for-security/tools/fail2ban-cheat-sheet.md)
+  * [Các lỗi thường bảo mật với Websocket](use-cases/for-security/cac-loi-thuong-bao-mat-voi-websocket.md)
 * [For Engineering](use-cases/for-engineering/README.md)
   * [Thiết lập cấu hình CMD log](use-cases/for-engineering/thiet-lap-cau-hinh-cmd-log.md)
   * [Cấu hình CLI kết nối đến AWS](use-cases/for-engineering/cau-hinh-cli-ket-noi-den-aws.md)
