@@ -24,6 +24,7 @@
   * [Thiết lập cấu hình CMD log](use-cases/for-engineering/thiet-lap-cau-hinh-cmd-log.md)
   * [Cấu hình CLI kết nối đến AWS](use-cases/for-engineering/cau-hinh-cli-ket-noi-den-aws.md)
   * [Sử dụng PET](use-cases/for-engineering/su-dung-pet.md)
+  * [🔧 Gom Nhóm IP Thành Subnet CIDR Tối Ưu – Tiết Kiệm Công Sức Quản Lý Hệ Thống!](use-cases/for-engineering/gom-nhom-ip-thanh-subnet-cidr-toi-uu-tiet-kiem-cong-suc-quan-ly-he-thong.md)
 * [For SysAdmin](use-cases/for-sysadmin/README.md)
   * [Scripts](use-cases/for-sysadmin/scripts/README.md)
     * [Bash Script Gen SSH key](use-cases/for-sysadmin/scripts/bash-script-gen-ssh-key.md)
