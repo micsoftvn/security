@@ -25,6 +25,7 @@
   * [Cấu hình CLI kết nối đến AWS](use-cases/for-engineering/cau-hinh-cli-ket-noi-den-aws.md)
   * [Sử dụng PET](use-cases/for-engineering/su-dung-pet.md)
   * [🔧 Gom Nhóm IP Thành Subnet CIDR Tối Ưu](use-cases/for-engineering/gom-nhom-ip-thanh-subnet-cidr-toi-uu.md)
+  * [PAC Proxy: Tự Động Cấu Hình Proxy Trong Môi Trường Doanh Nghiệp](use-cases/for-engineering/pac-proxy-tu-dong-cau-hinh-proxy-trong-moi-truong-doanh-nghiep.md)
 * [For SysAdmin](use-cases/for-sysadmin/README.md)
   * [Scripts](use-cases/for-sysadmin/scripts/README.md)
     * [Bash Script Gen SSH key](use-cases/for-sysadmin/scripts/bash-script-gen-ssh-key.md)
