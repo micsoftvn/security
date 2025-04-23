@@ -7,6 +7,8 @@
 * [For Hacking](use-cases/for-hacking.md)
   * [Kiểm thử mạng](use-cases/for-hacking/kiem-thu-mang.md)
   * [Tor - Sock - Proxy](use-cases/for-hacking/tor-sock-proxy.md)
+  * [Poc](use-cases/for-hacking/poc/README.md)
+    * [POC -draytek-vigor2960 ( CVE-2024-12987 )](use-cases/for-hacking/poc/poc-draytek-vigor2960-cve-2024-12987.md)
 * [For Security](use-cases/for-security/README.md)
   * [Security website with htacess file](use-cases/for-security/security-website-with-htacess-file.md)
   * [Incident Response](use-cases/for-security/incident-response/README.md)
