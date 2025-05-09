@@ -29,6 +29,7 @@
   * [🔧 Gom Nhóm IP Thành Subnet CIDR Tối Ưu](use-cases/for-engineering/gom-nhom-ip-thanh-subnet-cidr-toi-uu.md)
   * [PAC Proxy: Tự Động Cấu Hình Proxy Trong Môi Trường Doanh Nghiệp](use-cases/for-engineering/pac-proxy-tu-dong-cau-hinh-proxy-trong-moi-truong-doanh-nghiep.md)
   * [Sử dụng Podman tạo base images Pentest](use-cases/for-engineering/su-dung-podman-tao-base-images-pentest.md)
+  * [Tạo YUM Local Repository Trong Container CentOS 7 Sử Dụng Podman](use-cases/for-engineering/tao-yum-local-repository-trong-container-centos-7-su-dung-podman.md)
 * [For SysAdmin](use-cases/for-sysadmin/README.md)
   * [Scripts](use-cases/for-sysadmin/scripts/README.md)
     * [Bash Script Gen SSH key](use-cases/for-sysadmin/scripts/bash-script-gen-ssh-key.md)
