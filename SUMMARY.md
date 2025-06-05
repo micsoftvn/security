@@ -30,6 +30,7 @@
   * [PAC Proxy: Tự Động Cấu Hình Proxy Trong Môi Trường Doanh Nghiệp](use-cases/for-engineering/pac-proxy-tu-dong-cau-hinh-proxy-trong-moi-truong-doanh-nghiep.md)
   * [Sử dụng Podman tạo base images Pentest](use-cases/for-engineering/su-dung-podman-tao-base-images-pentest.md)
   * [Tạo YUM Local Repository Trong Container CentOS 7 Sử Dụng Podman](use-cases/for-engineering/tao-yum-local-repository-trong-container-centos-7-su-dung-podman.md)
+  * [Cài Đặt Và Cấu Hình dnsmasq Trên Ubuntu](use-cases/for-engineering/cai-dat-va-cau-hinh-dnsmasq-tren-ubuntu.md)
 * [For SysAdmin](use-cases/for-sysadmin/README.md)
   * [Scripts](use-cases/for-sysadmin/scripts/README.md)
     * [Bash Script Gen SSH key](use-cases/for-sysadmin/scripts/bash-script-gen-ssh-key.md)
