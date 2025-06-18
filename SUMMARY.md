@@ -50,6 +50,7 @@
   * [Cheat Sheet](use-cases/for-sysadmin/cheat-sheet/README.md)
     * [Cheat sheet Postgres](use-cases/for-sysadmin/cheat-sheet/cheat-sheet-postgres.md)
   * [Cài Đặt Fluent Bit Trên Amazon Linux 2023 & Tạo Repository Offline](use-cases/for-sysadmin/cai-dat-fluent-bit-tren-amazon-linux-2023-and-tao-repository-offline.md)
+  * [Lỗi SSL với Curl ( Unsafe legacy renegotiation )](use-cases/for-sysadmin/loi-ssl-voi-curl-unsafe-legacy-renegotiation.md)
 * [Installations](use-cases/installations/README.md)
   * [Install Helm on Ubuntu](use-cases/installations/install-helm-on-ubuntu.md)
 
