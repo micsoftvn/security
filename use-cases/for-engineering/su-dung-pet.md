@@ -4,7 +4,7 @@ description: Simple command-line snippet manager
 
 # Sử dụng PET
 
-#### 1. Cài đặt và sử dụng  PET trên Ubuntu&#x20;
+#### 1. Cài đặt và sử dụng PET trên Ubuntu
 
 ```
 sudo apt-get install linuxbrew-wrapper
@@ -14,7 +14,7 @@ dpkg -i pet_0.3.6_linux_amd64.deb
 
 Sau khi đã cài đặt thành công
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (1) (1).png>)
 
 ![](<../../.gitbook/assets/image (2).png>)
 
