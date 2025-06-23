@@ -97,10 +97,10 @@ curl --unix-socket /tmp/firecracker.socket -i \
     -X PUT 'http://localhost/machine-config' \
     -H 'Content-Type: application/json' \
     -d '{
-        "vcpu_count": 1,
-        "mem_size_mib": 128,
-        "ht_enabled": false
-    }'
+  "vcpu_count": 1,
+  "mem_size_mib": 128,
+  "smt": false
+}'
 
 # Gán kernel boot
 curl --unix-socket /tmp/firecracker.socket -i \
