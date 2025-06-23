@@ -52,6 +52,7 @@
   * [Cài Đặt Fluent Bit Trên Amazon Linux 2023 & Tạo Repository Offline](use-cases/for-sysadmin/cai-dat-fluent-bit-tren-amazon-linux-2023-and-tao-repository-offline.md)
   * [Lỗi SSL với Curl ( Unsafe legacy renegotiation )](use-cases/for-sysadmin/loi-ssl-voi-curl-unsafe-legacy-renegotiation.md)
   * [Allow few IP Address to connect to docker](use-cases/for-sysadmin/allow-few-ip-address-to-connect-to-docker.md)
+  * [Cài Đặt Firecracker v1.12.0 Trên Ubuntu](use-cases/for-sysadmin/cai-dat-firecracker-v1.12.0-tren-ubuntu.md)
 * [Installations](use-cases/installations/README.md)
   * [Install Helm on Ubuntu](use-cases/installations/install-helm-on-ubuntu.md)
 
