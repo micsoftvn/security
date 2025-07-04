@@ -62,18 +62,24 @@ kubectl exec -it nginx-demo -- /bin/bash
 
 ```
 # 1. Khởi động Minikube
-minikube start
+minikube start --driver=docker
 
-# 2. Áp dụng file YAML
+# 2. Check node 
+kubectl get nodes
+
+# 3. Check pods
+kubectl get pods -A
+
+# 4. Áp dụng file YAML
 kubectl apply -f nginx-pod.yaml
 
-# 3. Kiểm tra pod đã chạy chưa
+# 5. Kiểm tra pod đã chạy chưa
 kubectl get pods
 
-# 4. Xem chi tiết pod
+# 6. Xem chi tiết pod
 kubectl describe pod nginx-demo
 
-# 5. Truy cập vào pod
+# 7. Truy cập vào pod
 kubectl exec -it nginx-demo -- /bin/bash
 ```
 
