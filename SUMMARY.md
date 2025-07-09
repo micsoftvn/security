@@ -56,6 +56,7 @@
   * [Cài Đặt Firecracker v1.12.0 Trên Ubuntu](use-cases/for-sysadmin/cai-dat-firecracker-v1.12.0-tren-ubuntu.md)
   * [Khắc phục lỗi máy chủ không kết nối Internet và không phân giải DNS do iptables](use-cases/for-sysadmin/khac-phuc-loi-may-chu-khong-ket-noi-internet-va-khong-phan-giai-dns-do-iptables.md)
   * [K8s easy và dễ hiểu](use-cases/for-sysadmin/k8s-easy-va-de-hieu.md)
+  * [Cấu hình Config K8s](use-cases/for-sysadmin/cau-hinh-config-k8s.md)
 * [Installations](use-cases/installations/README.md)
   * [Install Helm on Ubuntu](use-cases/installations/install-helm-on-ubuntu.md)
 
