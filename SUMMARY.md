@@ -23,6 +23,7 @@
     * [Fail2Ban Cheat Sheet](use-cases/for-security/tools/fail2ban-cheat-sheet.md)
   * [Các lỗi thường bảo mật với Websocket](use-cases/for-security/cac-loi-thuong-bao-mat-voi-websocket.md)
   * [Cấu Hình Tor Trên CLI Ubuntu](use-cases/for-security/cau-hinh-tor-tren-cli-ubuntu.md)
+  * [Sử dụng Checkov để quét bảo mật cho hạ tầng](use-cases/for-security/su-dung-checkov-de-quet-bao-mat-cho-ha-tang.md)
 * [For Engineering](use-cases/for-engineering/README.md)
   * [Thiết lập cấu hình CMD log](use-cases/for-engineering/thiet-lap-cau-hinh-cmd-log.md)
   * [Cấu hình CLI kết nối đến AWS](use-cases/for-engineering/cau-hinh-cli-ket-noi-den-aws.md)
