@@ -33,6 +33,7 @@
   * [Sử dụng Podman tạo base images Pentest](use-cases/for-engineering/su-dung-podman-tao-base-images-pentest.md)
   * [Tạo YUM Local Repository Trong Container CentOS 7 Sử Dụng Podman](use-cases/for-engineering/tao-yum-local-repository-trong-container-centos-7-su-dung-podman.md)
   * [Cài Đặt Và Cấu Hình dnsmasq Trên Ubuntu](use-cases/for-engineering/cai-dat-va-cau-hinh-dnsmasq-tren-ubuntu.md)
+  * [Gỡ Lỗi Giao Thức MCP với MCP Inspector v0.16.2](use-cases/for-engineering/go-loi-giao-thuc-mcp-voi-mcp-inspector-v0.16.2.md)
 * [For SysAdmin](use-cases/for-sysadmin/README.md)
   * [Scripts](use-cases/for-sysadmin/scripts/README.md)
     * [Bash Script Gen SSH key](use-cases/for-sysadmin/scripts/bash-script-gen-ssh-key.md)
