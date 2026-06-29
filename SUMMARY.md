@@ -21,6 +21,7 @@
   * [Tools](use-cases/for-security/tools/README.md)
     * [Tools for AWS](use-cases/for-security/tools/tools-for-aws.md)
     * [Fail2Ban Cheat Sheet](use-cases/for-security/tools/fail2ban-cheat-sheet.md)
+    * [Backup và mã hóa file env](use-cases/for-security/tools/backup-va-ma-hoa-file-env.md)
   * [Các lỗi thường bảo mật với Websocket](use-cases/for-security/cac-loi-thuong-bao-mat-voi-websocket.md)
   * [Cấu Hình Tor Trên CLI Ubuntu](use-cases/for-security/cau-hinh-tor-tren-cli-ubuntu.md)
   * [Sử dụng Checkov để quét bảo mật cho hạ tầng](use-cases/for-security/su-dung-checkov-de-quet-bao-mat-cho-ha-tang.md)
