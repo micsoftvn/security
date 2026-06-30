@@ -20,9 +20,7 @@ RewriteEngine On
 # This attempts to block the most common type of exploit `attempts` to Grav
 #
 # Block out any script trying to use twig tags in URL.
-RewriteCond %{REQUEST_URI} ({{|}}|{% raw %}
-{%|%}
-{% endraw %}) [OR]
+RewriteCond %{REQUEST_URI} ({{|}}|{%|%}) [OR]
 RewriteCond %{QUERY_STRING} ({{|}}|{%25|%25}) [OR]
 # Block out any script trying to base64_encode data within the URL.
 RewriteCond %{QUERY_STRING} base64_encode[^(]*\([^)]*\) [OR]
