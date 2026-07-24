@@ -28,6 +28,7 @@
   * [Các lỗi thường bảo mật với Websocket](use-cases/for-security/cac-loi-thuong-bao-mat-voi-websocket.md)
   * [Cấu Hình Tor Trên CLI Ubuntu](use-cases/for-security/cau-hinh-tor-tren-cli-ubuntu.md)
   * [Sử dụng Checkov để quét bảo mật cho hạ tầng](use-cases/for-security/su-dung-checkov-de-quet-bao-mat-cho-ha-tang.md)
+  * [Tool bảo vệ file .env khi đẩy lên git](use-cases/for-security/tool-bao-ve-file-.env-khi-day-len-git.md)
 * [For Engineering](use-cases/for-engineering/README.md)
   * [Thiết lập cấu hình CMD log](use-cases/for-engineering/thiet-lap-cau-hinh-cmd-log.md)
   * [Cấu hình CLI kết nối đến AWS](use-cases/for-engineering/cau-hinh-cli-ket-noi-den-aws.md)
